@@ -1,0 +1,70 @@
+body {
+    background-color: skyblue;
+    margin: 0px;
+}
+
+.navLink {
+    background-color: rgb(45, 149, 235);
+    color:white;
+    float: right;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    margin-right: .5rem;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: white;
+    padding: 15px 10px 50px 10px;
+    margin: 0px 0px 75px 0px;
+    box-shadow: 0px 3px 5px grey;
+
+}
+
+.formArea {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 25px 25px 25px 25px;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    box-shadow: 3px 5px 5px grey;
+    }
+
+.signUp {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 2px;
+   margin: 2px .5rem;
+}
+
+input {
+    display: block;
+   width: 95%;
+   padding: 12px 20px;
+   margin: 20px .5rem;
+   border: 1px solid black;
+   border-radius: 5px;
+   box-sizing: border-box;
+   font-size: 17.5px;
+}
+
+input [type=submit], input[type=submit], input[type=reset] {
+    background-color: rgb(45, 149, 235);
+    border-radius: 5px;
+    color: white;
+    padding: 12px 20px;
+    margin: 20px .5rem;
+    width: 95%;
+    font-size: 17.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.round {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    
+}
